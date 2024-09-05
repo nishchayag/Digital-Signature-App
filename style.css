@@ -1,0 +1,61 @@
+body {
+  user-select: none;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  margin: 20px 0px;
+}
+.top {
+  display: flex;
+  justify-content: space-around;
+}
+.pickers {
+  width: 300px;
+  font-size: 20px;
+  cursor: pointer;
+}
+p {
+  text-align: center;
+  font-size: 20px;
+}
+#canvasdiv {
+  display: flex;
+  justify-content: center;
+}
+#workSpace {
+  /* height: 600px;
+  width: 1200px; */
+  margin: 20px 10px;
+  border: 10px solid black;
+  border-radius: 10px;
+}
+
+#btnsDiv {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btns {
+  width: 30vw;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#clearBtn {
+  background-color: rgb(233, 1, 1);
+  color: white;
+}
+
+#saveDownloadBtn {
+  background-color: rgb(0, 209, 0);
+  color: white;
+}
+
+#retrieveBtn {
+  background-color: yellow;
+}
